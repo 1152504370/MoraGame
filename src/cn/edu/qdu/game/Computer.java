@@ -6,27 +6,9 @@ public class Computer extends Player {
 	Scanner input = new Scanner(System.in);
 
 	public void inputName() {
+		String[] name = { "´ó¶úÔôÁõ±¸", "±ÌÑÛ¶ùËïÈ¨", "ÀÏÔô²Ü²Ù", "Ç¹ÉñÕÔÔÆ" };
 		int num = input.nextInt();
-		switch (num) {
-		case 1:
-			setPlayerName("Áõ±¸");
-			break;
-		case 2:
-			setPlayerName("ËïÈ¨");
-
-			break;
-		case 3:
-			setPlayerName("²Ü²Ù");
-		case 4:
-			setPlayerName("ÕÔÔÆ");
-			break;
-
-		default:
-			System.out.println("ÊäÈëÓĞÎó");
-
-			break;
-		}
-
+		setPlayerName(name[num - 1]);
 	}
 
 	public int myFist() {
