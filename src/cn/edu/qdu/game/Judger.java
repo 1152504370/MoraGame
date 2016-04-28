@@ -26,11 +26,11 @@ public class Judger {
 		// 选择玩家名
 		System.out.println("敢问少侠尊姓大名");
 		person.inputName();
-		System.out.println(person.getPlayerName() + "    对阵    " + computer.getPlayerName() + "   对战");
+		System.out.println(person.getPlayerName() + "与" + computer.getPlayerName() + "一言不合便要拔刀相向！");
 	}
 
 	public void playGame() {
-		System.err.println("要开始吗？（y/n）");
+		System.err.println("是否开始生死大战？（y/n）");
 		String yn = new String();
 		yn = input.next();
 		while (yn.equalsIgnoreCase("y")) {
