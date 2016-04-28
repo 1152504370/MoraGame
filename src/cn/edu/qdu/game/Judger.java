@@ -114,13 +114,4 @@ public class Judger {
 		else
 			System.out.println("结果：你和" + computer.getPlayerName() + "不相伯仲！");
 	}
-//	 public static void main(String[] args) {
-//	 Judger j = new Judger();
-//	// Computer computer =new Computer();
-//	// Person person = new Person();
-//	 j.startGame();
-//	 j.askName();
-//	 j.playGame();
-//	 j.finalResult();
-//	 }
 }
