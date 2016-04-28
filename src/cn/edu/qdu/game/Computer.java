@@ -17,6 +17,8 @@ public class Computer extends Player {
 			break;
 		case 3:
 			setPlayerName("≤‹≤Ÿ");
+		case 4:
+			setPlayerName("’‘‘∆");
 			break;
 
 		default:

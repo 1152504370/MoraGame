@@ -17,11 +17,11 @@ public class Judger {
 	}
 
 	public void askName() {
-		System.out.println("请选择对方角色（1：刘备2：孙权3：曹操）");
+		System.out.println("请选择对方角色（1：刘备2：孙权3：曹操4：赵云）");
 		computer.inputName();
 		System.out.println("请输入你的姓名");
 		person.inputName();
-		System.out.println(person.getPlayerName() + "    VS    " + computer.getPlayerName() + "对战");
+		System.out.println(person.getPlayerName() + "    VS    " + computer.getPlayerName() + "   对战");
 	}
 
 	public void playGame() {
