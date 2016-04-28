@@ -6,7 +6,7 @@ public class Person extends Player {
 	Scanner input = new Scanner(System.in);
 
 	public void inputName() {
-		String name = input.nextLine();
+		String name = input.next();
 		setPlayerName(name);
 
 	}
